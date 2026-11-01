@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+</head>
+<body>
+
+     <h1>Student Registration</h1>
+
+<form onsubmit="register(event)">
+
+    <input type="text" id="name"
+    placeholder="Enter Your Name" required>
+
+    <br><br>
+
+    <input type="email" id="email"
+    placeholder="Enter Your Email" required>
+
+    <br><br>
+
+    <input type="tel" id="phone"
+    placeholder="Enter Phone Number" required>
+
+    <br><br>
+
+    <select id="department">
+        <option value="">Select Department</option>
+        <option>CSE</option>
+        <option>ISE</option>
+        <option>ECE</option>
+    </select>
+
+    <br><br>
+
+    <button type="submit" id="registerBtn">Register</button>
+    <button type="reset">Clear Form</button>
+
+</form>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <footer>
+    <p>Created by Rangaswamy HL</p>
+    <p>Student Registration Project - 2026</p>
+  </footer>
+    </body>
+</html>
