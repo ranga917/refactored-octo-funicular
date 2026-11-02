@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Karnataka Districts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Karnataka District Selection</h1>
+
+    <h3>Select Your District</h3>
+
+    <select id="district">
+        <option value="">Select District</option>
+        <option value="Hassan">Hassan</option>
+        <option value="Mysuru">Mysuru</option>
+        <option value="Bengaluru">Bengaluru</option>
+        <option value="Mandya">Mandya</option>
+        <option value="Tumakuru">Tumakuru</option>
+    </select>
+
+    <p id="selection"></p>
+    <p id="result"></p>
+
+    <script>
+        if (!sessionStorage.getItem("username")) {
+            window.location.href = "index.html";
+        }
+    </script>
+
+    <script src="district.js"></script>
+
+</body>
+</html>
