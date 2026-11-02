@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <title>Karnataka Tourism - Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-     <h1>Student Registration</h1>
+    <h1>Welcome to Karnataka Tourism</h1>
 
-<form onsubmit="register(event)">
+    <h2>Login</h2>
 
-    <input type="text" id="name"
-    placeholder="Enter Your Name" required>
+    <form onsubmit="login(event)">
 
-    <br><br>
+        <input type="text"
+               id="username"
+               placeholder="Enter Username"
+               required>
 
-    <input type="email" id="email"
-    placeholder="Enter Your Email" required>
+        <br><br>
 
-    <br><br>
+        <input type="password"
+               id="password"
+               placeholder="Enter Password"
+               required>
 
-    <input type="tel" id="phone"
-    placeholder="Enter Phone Number" required>
+        <br><br>
 
-    <br><br>
+        <button type="submit">Login</button>
 
-    <select id="department">
-        <option value="">Select Department</option>
-        <option>CSE</option>
-        <option>ISE</option>
-        <option>ECE</option>
-    </select>
+    </form>
 
-    <br><br>
+    <p id="message"></p>
 
-    <button type="submit" id="registerBtn">Register</button>
-    <button type="reset">Clear Form</button>
+    <footer>
+        <p>Created by Rangaswamy HL</p>
+        <p>Karnataka Tourism Website - 2026</p>
+    </footer>
 
-</form>
+    <script>
+        function login(event) {
 
-<p id="result"></p>
+            event.preventDefault();
 
-<script src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <footer>
-    <p>Created by Rangaswamy HL</p>
-    <p>Student Registration Project - 2026</p>
-  </footer>
-    </body>
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            sessionStorage.setItem("username", username);
+
+            window.location.href = "districts.html";
+        }
+    </script>
+
+</body>
 </html>
