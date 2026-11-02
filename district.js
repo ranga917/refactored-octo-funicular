@@ -321,8 +321,7 @@ function showDetails(place) {
         details.innerHTML = `
             <h2>Hasanamba Temple 🛕</h2>
 
-            <img src="https://cdn.s3waas.gov.in/s386b122d4358357d834a87ce618a55de0/uploads/2018/07/2018071348.png"
-                 width="95%" alt="Hasanamba Temple">
+            <img src="Hasanaba_Devi.jpg" width="300" alt="Hasanamba Temple">
 
             <h3>📍 Location</h3>
             <p>Hassan City, Hassan District, Karnataka</p>
