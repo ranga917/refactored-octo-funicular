@@ -1,1 +1,310 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Karnataka Tourism | Explore Karnataka</title>
+
+    <meta name="description"
+    content="Discover Karnataka tourism, beautiful waterfalls, temples, beaches, hill stations and historical places.">
+
+    <meta name="keywords"
+    content="Karnataka Tourism, Karnataka Tourist Places, Karnataka Travel, Mysore, Hassan">
+
+    <meta name="robots" content="index, follow">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7f5;
+            color: #222;
+        }
+
+        header {
+            background: #075c36;
+            color: white;
+            padding: 20px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            font-size: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .login-btn {
+            background: #ffca28;
+            color: #222;
+            padding: 10px 20px;
+            border-radius: 6px;
+        }
+
+        .hero {
+            min-height: 430px;
+            background: linear-gradient(
+                120deg,
+                #075c36,
+                #159957
+            );
+            color: white;
+            text-align: center;
+            padding: 110px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            margin-bottom: 30px;
+        }
+
+        .explore-btn {
+            display: inline-block;
+            background: #ffca28;
+            color: #222;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 55px 7%;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #075c36;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            line-height: 1.6;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(200px, 1fr)
+            );
+            gap: 22px;
+            margin-top: 35px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000015;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-7px);
+        }
+
+        .card .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #075c36;
+            margin-bottom: 12px;
+        }
+
+        .district-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background: #075c36;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #063d29;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            line-height: 1.8;
+        }
+
+        @media(max-width: 600px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav {
+                text-align: center;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero {
+                padding: 80px 15px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h2>🌿 Karnataka Tourism</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#places">Explore</a>
+            <a href="districts.html">Districts</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </nav>
+
+    </header>
+
+
+    <section class="hero">
+
+        <h1>Welcome to Karnataka</h1>
+
+        <p>
+            One State, Many Worlds!
+            Discover the Beauty of Karnataka.
+        </p>
+
+        <a href="districts.html" class="explore-btn">
+            Explore Tourist Places
+        </a>
+
+    </section>
+
+
+    <section class="section" id="about">
+
+        <h2>Discover Karnataka</h2>
+
+        <p>
+            Karnataka is a beautiful state in India,
+            famous for its historical monuments,
+            ancient temples, beautiful waterfalls,
+            beaches, wildlife and hill stations.
+
+            Explore the culture, nature and heritage
+            of Karnataka with us.
+        </p>
+
+    </section>
+
+
+    <section class="section" id="places">
+
+        <h2>Explore Different Destinations</h2>
+
+        <p>Discover the different attractions of Karnataka.</p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">🏞️</div>
+                <h3>Waterfalls</h3>
+                <p>Experience the beauty of Karnataka's waterfalls.</p>
+                <a href="districts.html" class="district-btn">Explore</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🛕</div>
+                <h3>Temples</h3>
+                <p>Discover ancient temples and spiritual places.</p>
+                <a href="districts.html" class="district-btn">Explore</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏖️</div>
+                <h3>Beaches</h3>
+                <p>Enjoy beautiful beaches along the coastline.</p>
+                <a href="districts.html" class="district-btn">Explore</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏰</div>
+                <h3>Historical Places</h3>
+                <p>Explore Karnataka's rich history and heritage.</p>
+                <a href="districts.html" class="district-btn">Explore</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">⛰️</div>
+                <h3>Hill Stations</h3>
+                <p>Enjoy mountains, greenery and beautiful nature.</p>
+                <a href="districts.html" class="district-btn">Explore</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🐘</div>
+                <h3>Wildlife</h3>
+                <p>Discover forests and wildlife destinations.</p>
+                <a href="districts.html" class="district-btn">Explore</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <h2>Explore Karnataka Districts</h2>
+
+        <p>
+            Find tourist attractions across
+            different districts of Karnataka.
+        </p>
+
+        <a href="districts.html" class="explore-btn">
+            View All Districts
+        </a>
+
+    </section>
+
+
+    <footer>
+
+        <h3>Karnataka Tourism</h3>
+
+        <p>Explore
