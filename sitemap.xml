@@ -3,9 +3,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>YOUR_WEBSITE_URL/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
+        <loc>https://ranga917.github.io/refactored-octo-funicular/</loc>
+    </url>
+
+    <url>
+        <loc>https://ranga917.github.io/refactored-octo-funicular/districts.html</loc>
     </url>
 
 </urlset>
