@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ranga917.github.io/refactored-octo-funicular/sitemap.xml
